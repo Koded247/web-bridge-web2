@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tribute to mohbad</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- HEADER SECTION WITH IMAGE TAG  -->
 <div>
   <h1>Tribute to Ilerioluwa Oladimeji Aloba (popularly known as Mohbad)</h1>
 
-  <img src="https://i0.wp.com/news.band/wp-content/uploads/2023/09/Mohbad.jpg?fit=600%2C400&ssl=1" alt="Mohbad" width="1000px" height="600px">
+  <img class="image" src="https://i0.wp.com/news.band/wp-content/uploads/2023/09/Mohbad.jpg?fit=600%2C400&ssl=1" alt="Mohbad" width="1000px" height="600px">
 </div>
 
 <!-- INTRODUCTION SECTION -->
@@ -91,17 +92,19 @@
      </ol>
 
      <h4> To download and Listen to his songs click the link below</h4>
-     <a href="https://open.spotify.com/artist/0a8YNI8VHVPYKIPvCiJDxa" target="_blank">For more musics</a>
+     <button><a href="https://open.spotify.com/artist/0a8YNI8VHVPYKIPvCiJDxa" target="_blank">For more musics</a></button>
 
     </div>
     <hr>
  <!-- FORM TAGS AND FOOTER SECTION -->
     <div>
-      <h3>For more discussion and newsletter to join our community</h3>
-      <p>Drop details below</p>
+    
       <form action="">
-        <input type="tel" placeholder="+234"> <br>
-        
+        <h3>For more discussion and newsletter to join our community</h3>
+      <p class="form-info">Drop details below</p>
+        <label for="">Phone</label> <br>
+        <input  type="tel" placeholder="+234"> <br>
+        <label for="">Email</label> <br>
         <input type="email" placeholder="koded@email.com"> <br>
         <input type="submit">
       </form>
